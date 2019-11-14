@@ -1,0 +1,25 @@
+package Selenium;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+
+public class Seleniumlinls {
+	public WebDriver driver;
+  @Test
+  public void f() {
+	  
+	  driver.get("http://selenium4testing.com");
+		driver.findElement(By.xpath("//*[@id=\'closediv\']")).click();
+  }
+  @BeforeTest
+  public void beforeTest() {
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

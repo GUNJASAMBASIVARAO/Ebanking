@@ -1,0 +1,19 @@
+package POM;
+
+import org.testng.annotations.Test;
+
+public class HMSLogin extends BaseClass  {
+  
+	HMSLocators locators=new HMSLocators();
+	
+@Test
+public void f() {
+	OpenBrowder();
+	OpenURL("http://selenium4testing.com/hms/");
+	type(locators.username, "admin");
+	type(locators.password, "admin");
+	CLick(locators.login);
+	CLick(locators.Registration);
+}
+
+}

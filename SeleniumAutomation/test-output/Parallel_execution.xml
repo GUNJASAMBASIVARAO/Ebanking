@@ -1,0 +1,18 @@
+<suite name="GRID" parallel="tests">
+<test name="HMSLogin_chrome">
+<classes>
+<parameter name="browser" value="chrome"></parameter>
+<class name="TestNG.HMSregistration">
+</class>
+</classes>
+</test>
+
+
+<test name="Selenium4links_chrome">
+<classes>
+<parameter name="browser" value="chrome"></parameter>
+<class name="TestNG.Selenium4links">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,10 @@
+<suite name="HMS_Login">
+<test name="HMSResults1">
+<classes>
+<parameter name="TestcaseNo" value="1">
+<class name="com.testScripts.HMSTestSCR_1">
+</class>
+</parameter>
+</classes>
+</test>
+</suite>

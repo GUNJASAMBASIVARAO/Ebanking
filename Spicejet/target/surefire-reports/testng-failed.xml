@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [HMS]">
+  <test name="HMSREsults(failed)">
+    <classes>
+      <class name="Webdriver.HMSRegistration">
+        <methods>
+          <include name="Test"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Webdriver.HMSRegistration -->
+    </classes>
+  </test> <!-- HMSREsults(failed) -->
+</suite> <!-- Failed suite [HMS] -->

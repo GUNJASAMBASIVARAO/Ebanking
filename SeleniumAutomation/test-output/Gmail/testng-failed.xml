@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail]">
+  <test thread-count="5" name="GmailResults1(failed)">
+    <parameter name="TestcaseNo" value="1"/>
+    <classes>
+      <class name="com.testScripts.GmailTestS_1">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- com.testScripts.GmailTestS_1 -->
+    </classes>
+  </test> <!-- GmailResults1(failed) -->
+</suite> <!-- Failed suite [Gmail] -->

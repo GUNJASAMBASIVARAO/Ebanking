@@ -1,0 +1,10 @@
+<suite name="Gmail">
+<test name="GmailResults1">
+<classes>
+<parameter name="TestcaseNo" value="1">
+<class name="com.testScripts.GmailTestS_1">
+</class>
+</parameter>
+</classes>
+</test>
+</suite>

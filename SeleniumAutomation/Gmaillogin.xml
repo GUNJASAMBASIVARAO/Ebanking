@@ -1,0 +1,7 @@
+<suite name="Gmail">
+<test name = "GmailLogin.html">
+<classes>
+<class name="pom.GmailLoginScript"></class>
+</classes>
+</test>
+</suite>

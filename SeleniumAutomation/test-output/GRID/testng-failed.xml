@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GRID]" parallel="tests">
+  <test thread-count="5" name="Selenium4links_chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNG.Selenium4links">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="g"/>
+        </methods>
+      </class> <!-- TestNG.Selenium4links -->
+    </classes>
+  </test> <!-- Selenium4links_chrome(failed) -->
+</suite> <!-- Failed suite [GRID] -->

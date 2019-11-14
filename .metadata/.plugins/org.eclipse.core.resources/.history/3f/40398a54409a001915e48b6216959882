@@ -1,0 +1,14 @@
+package POM;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class HMSLocators  {
+      
+	
+	
+	By username=By.name("username");
+	By password=By.name("password");
+	By login=By.xpath("//input[@name=\'submit\']");
+	By Registration=By.xpath("//*[@id=\"navigation\"]/li[1]/a");
+}

@@ -1,0 +1,9 @@
+package Appium_Basics;
+
+import org.testng.annotations.Test;
+
+public class Whatsapp {
+  @Test
+  public void f() {
+  }
+}

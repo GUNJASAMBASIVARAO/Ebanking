@@ -1,0 +1,44 @@
+package POM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+public class HMSLocators  {
+      
+	
+	
+	By username=By.name("username");
+	By password=By.name("password");
+	By login=By.xpath("//input[@name=\'submit\']");
+	By Registration=By.xpath("//*[@id=\"navigation\"]/li[1]/a");
+	By MOTHER_NAME=By.xpath("//input[@name=\"MOTHER_NAME\"]");
+	By PNT_NAME=By.xpath("//input[@name=\"PNT_NAME\"]");
+	By MIDDLE_NAME=By.xpath("//input[@name=\"MIDDLE_NAME\"]");
+	By PAT_IDENTITY_PROOF=By.xpath("//input[@name=\"PAT_IDENTITY_PROOF\"]");
+	By LAST_NAME=By.xpath("//input[@name=\"LAST_NAME\"]");
+	By DOB=By.xpath("//input[@name=\"DOB\"]");
+	By Date=By.xpath("//*[@id=\"tcalGrid\"]/tbody/tr[4]/td[5]");
+	By AGE=By.xpath("//input[@name=\"AGE\"]");
+	By ADDRESS1=By.name("Ameerpet");
+	By ADDRESS2=By.name("Hyderabad");
+	By MOBILE_NO=By.name("9856585523");
+	By EMAIL_ID=By.name("venkatesh@gmail.com");
+	By ZIP=By.name("500073");
+	By COUNTRY_CODE=By.name("India");
+	By image=By.name("D:\\Testing\\AhVWHr.jpg");
+	By submit=By.xpath("//input[@name=\'submit\']");
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

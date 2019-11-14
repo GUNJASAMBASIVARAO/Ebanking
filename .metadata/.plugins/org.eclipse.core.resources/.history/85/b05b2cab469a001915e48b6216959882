@@ -1,0 +1,68 @@
+package POM;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class HMSLogin extends BaseClass  {
+  
+	HMSLocators locators=new HMSLocators();
+	
+@Test
+public void f() {
+	OpenBrowder();
+	OpenURL("http://selenium4testing.com/hms/");
+	type(locators.username, "admin");
+	type(locators.password, "admin");
+	CLick(locators.login);
+	CLick(locators.Registration);
+	select(By.name("PATIENT_CAT"), "Insurance");
+	select(By.name("RELATION"), "Father");
+	select(By.name("TITLE"), "Mr.");
+	type(locators.MOTHER_NAME, "Anusha");
+	type(locators.PNT_NAME, "Venkat");
+	select(By.name("PAT_IDENTITY"), "Voter ID");
+	type(locators.MIDDLE_NAME, "Swamy");
+	type(locators.PAT_IDENTITY_PROOF, "123456789");
+	type(locators.LAST_NAME, "G");
+	type(locators.DOB, "//input[@name=\"DOB\"]");
+	type(locators.Date, "//*[@id=\"tcalGrid\"]/tbody/tr[4]/td[5]");
+	select(By.name("NATIONALITY"), "Indian");
+	type(locators.AGE, "25");
+	select(By.name("IS_MLC"), "Yes");
+	select(By.name("SEX"), "Male");
+	select(By.name("EDUCATION"), "B.Tech");
+	select(By.name("MTRL_STATUS"), "Single");
+	select(By.name("OCCUPATION"), "Employee");
+	select(By.name("RELIGION"), "Hindu");
+	select(By.name("BLOOD_GRP_CODE"), "O+");
+	select(By.name("PLANGUAGE"), "Telugu");
+	select(By.name("CITIZENSHIP"), "Indian");
+	select(By.name("SC_PROOF"), "Yes");
+	type(locators.ADDRESS1, "Ameerpet");
+	type(locators.ADDRESS2, "Hyderabad");
+	type(locators.MOBILE_NO, "9856585523");
+	type(locators.EMAIL_ID, "venkatesh@gmail.com");
+	type(locators.ZIP, "500073");
+	type(locators.COUNTRY_CODE, "India");
+	type(locators.image, "D:\\Testing\\AhVWHr.jpg");
+	CLick(locators.submit);
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

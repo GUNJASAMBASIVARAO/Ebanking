@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.634 sec <<< FAILURE! - in TestSuite
+beforeTest(Webdriver.HMSRegistration)  Time elapsed: 1.073 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\Testing\Workspace\Spicejet\.\Lib\ChromeDriver\chromedriver.exe
+	at Webdriver.HMSRegistration.beforeTest(HMSRegistration.java:25)
+
